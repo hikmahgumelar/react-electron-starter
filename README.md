@@ -1,4 +1,4 @@
-The beautiful of merger betwen React and electron
+The beautiful of combination betwen React and electron
 
 thanks' for Christian Sepulveda 
 - https://medium.freecodecamp.org/building-an-electron-application-with-create-react-app-97945861647c
