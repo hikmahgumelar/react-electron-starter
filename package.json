@@ -1,0 +1,45 @@
+{
+  "name": "react-electron-starter",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "react": "^16.3.1",
+    "react-dom": "^16.3.1",
+    "react-scripts": "1.1.4"
+  },
+  "main": "src/electron-starter.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "electron": "wait-on tcp:3000 && electron .",
+    "trial": "concurrently --kill-others  -n \"DB,API,WEB\"  \"npm run start\" \"npm run electron\""
+
+  },
+  "devDependencies": {
+    "electron": "^1.8.4",
+    "concurrently":"^3.5.1",
+    "react-scripts": "1.1.4",
+    "wait-on":"^2.1.0"
+
+  },
+  "description": "The beautiful React with electron",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hikmahgumelar/react-electron-starter.git"
+  },
+  "keywords": [
+    "reactjs",
+    "electron",
+    "react",
+    "electron",
+    "starter"
+  ],
+  "author": "gugum",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hikmahgumelar/react-electron-starter/issues"
+  },
+  "homepage": "https://github.com/hikmahgumelar/react-electron-starter#readme"
+}
