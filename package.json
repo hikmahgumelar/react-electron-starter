@@ -14,7 +14,7 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "electron": "wait-on tcp:3000 && electron .",
-    "trial": "concurrently --kill-others  -n \"DB,API,WEB\"  \"npm run start\" \"npm run electron\""
+    "trial": "concurrently --kill-others \"npm run start\" \"npm run electron\""
 
   },
   "devDependencies": {
