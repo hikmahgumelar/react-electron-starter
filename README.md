@@ -1,8 +1,5 @@
 The beautiful of combination betwen React and electron
 
-thanks' for Christian Sepulveda 
-- https://medium.freecodecamp.org/building-an-electron-application-with-create-react-app-97945861647c
-
 for starter 
 
 - git clone https://github.com/hikmahgumelar/react-electron-starter.git
@@ -30,7 +27,9 @@ you can reload from window app for live editing
 
 ![alt text](https://github.com/hikmahgumelar/react-electron-starter/blob/master/assets/Screenshot%20from%202018-04-18%2016-10-41.png)
 
-
+thanks' to 
+Christian Sepulveda for the inspiration and tutorial 
+- https://medium.freecodecamp.org/building-an-electron-application-with-create-react-app-97945861647c
 
 
 
