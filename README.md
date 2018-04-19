@@ -23,7 +23,8 @@ and window display
 
 #for live editing
 
-you can reload from window app for live editing
+you can reload from window app after new code apply/save , 
+and window app will show the result of your new code/edit.
 
 ![alt text](https://github.com/hikmahgumelar/react-electron-starter/blob/master/assets/Screenshot%20from%202018-04-18%2016-10-41.png)
 
